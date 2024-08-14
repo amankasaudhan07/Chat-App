@@ -1,0 +1,140 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.join_room{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.join_room input{
+  height: 35px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  border: 2px solid yellow;
+}
+.join_room input::placeholder{
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.join_room button{
+    height: 40px;
+  width: 310px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+background-color: rgb(20, 20, 178);
+color: white;
+border: 1px solid yellow;
+
+}
+
+.chat_container{
+  height: 600px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.chat_box{
+  background-color: rgb(14, 14, 9);
+  height: 500px;
+  position: relative;
+  border: 2px solid yellow;
+  
+}
+
+.chat_body{
+  display: flex;
+  flex: row;
+ 
+  position: absolute;
+  bottom: 0;
+}
+
+.chat_body input[type="text"]{
+  height: 43px;
+  width: 350px;
+  border: 1px solid yellow;
+  
+}
+
+.chat_body input::placeholder{
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.chat_body button{
+  height: 47px;
+  padding: 10px;
+  width: 41px;
+  cursor: pointer;
+  background-color: rgb(127, 19, 229);
+  color: rgb(249, 248, 250);
+}
+
+.message_content{
+  display: flex;
+  line-height: 0;
+  margin: 10px;
+  font-weight: bolder;
+}
+
+ #you{
+  justify-content: flex-end;
+}
+#y{
+  background-color: rgba(10, 73, 181, 0.635);
+  padding: 5px;
+ 
+  color: black;
+}
+
+ #other{
+  justify-content: flex-start;
+}
+#b{
+  background-color: rgb(3, 77, 87);
+  padding: 10px;
+  border-radius: 5%;
+}
+.msg_detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.auto-scrolling-div::-webkit-scrollbar{
+  display: none;
+}
+
+/* .chat_box img{
+  max-width: 100%;
+  margin: 10px 0;
+  border-radius: 5%;
+} */
+
+
+.chat_body input[type="file"] {
+ 
+  display: none;
+}
+
+.icon{
+  cursor: pointer;
+  font-size:larger;
+  font:bolder;
+  color: black;
+  translate:-4rem;
+  padding-top: 12px;
+}
+
+
